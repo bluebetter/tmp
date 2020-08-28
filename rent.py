@@ -7,16 +7,18 @@ per_month2 = 6000
 conf_list = [
     #{ 'name': 'test(自如)', 'per_month': per_month, 'srv_month': per_month * 0.08, 'srv_once': 0, 'insur': per_month, 'discount': { } },
     #{ 'name': 'test(链家)', 'per_month': per_month2, 'srv_month': 0, 'srv_once': per_month2, 'insur': per_month2, 'discount': { } },
-    { 'name': '上奥(89)', 'per_month': 6800, 'srv_month': 0, 'srv_once': 6800, 'insur': 6800, 'discount': { }, 'floor': '中/18' },
-    { 'name': '上奥(104)', 'per_month': 7000, 'srv_month': 0, 'srv_once': 7000, 'insur': 7000, 'discount': { }, 'floor': '中/23' },
-    { 'name': '育新花园(自如)', 'per_month': 7890, 'srv_month': 631.2, 'srv_once': 0, 'insur': 7890, 'discount': { 0: 0.85 }, 'floor': '17/20' },
-    { 'name': '育新花园', 'per_month': 5500, 'srv_month': 0, 'srv_once': 5500, 'insur': 5500, 'discount': { }, 'floor': '低/20' },
+    { 'name': '上奥世纪-89', 'per_month': 6800, 'srv_month': 0, 'srv_once': 6800, 'insur': 6800, 'discount': {}, 'floor': '中/18' },
+    #{ 'name': '上奥-104', 'per_month': 7000, 'srv_month': 0, 'srv_once': 7000, 'insur': 7000, 'discount': {}, 'floor': '中/23' },
+    { 'name': '万润-自如-70', 'per_month': 6960, 'srv_month': 556.8, 'srv_once': 0, 'insur': 6960, 'discount': {0:0.9}, 'floor': '9/12' },
+    { 'name': '强佑-自如-64', 'per_month': 7590, 'srv_month': 607.2, 'srv_once': 0, 'insur': 7590, 'discount': {1:0.5, 0:0.9}, 'floor': '2/15' },
+    { 'name': '育新-自如2-102', 'per_month': 7350, 'srv_month': 588, 'srv_once': 0, 'insur': 7350, 'discount': { }, 'floor': '21/22' },
+    { 'name': '育新-自如-86', 'per_month': 7890, 'srv_month': 631.2, 'srv_once': 0, 'insur': 7890, 'discount': { 0: 0.85 }, 'floor': '17/20' },
+    { 'name': '育新花园-84', 'per_month': 5500, 'srv_month': 0, 'srv_once': 5500, 'insur': 5500, 'discount': { }, 'floor': '低/20' },
     { 'name': '当前\t', 'per_month': 6300, 'srv_month': 0, 'srv_once': 0, 'insur': 0, 'discount': { }, 'floor': '24/24' },
     #   no elavator
     #{ 'name': '上地东里', 'per_month': 6500, 'srv_month': 0, 'srv_once': 6500, 'insur': 6500, 'discount': { } },
     #{ 'name': '621小区(自如)', 'per_month': 6990, 'srv_month': 559.2, 'srv_once': 0, 'insur': 6990, 'discount': { } },
     #{ 'name': '621小区(自如)', 'per_month': 6590, 'srv_month': 527.2, 'srv_once': 0, 'insur': 6590, 'discount': { } },
-    #{ 'name': '加气土场(自如)', 'per_month': 6690, 'srv_month': 535.2, 'srv_once': 0, 'insur': 6690, 'discount': { 0: 0.9 } },
 ]
 
 def show_price(conf):
